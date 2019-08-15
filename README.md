@@ -1,3 +1,3 @@
-# UXF Tutorial
+# Unity Experiment Framework tutorial
 
-[Part 1](/part-1)
+* [Part 1](/uxf-tutorial/part-1)
