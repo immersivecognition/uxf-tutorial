@@ -47,7 +47,7 @@ Right click in the Hierarchy go to 3D Objects and create a Sphere (for our curso
 
 ![primitives](/uxf-tutorial/images/primitives.png)
 
-Lets move and scale these objects appropriate for our task. We can think of Unity's units as being in *meters* for simplicity. To do this, click an object in the hierarchy and modify the transform component that appears in the inspector on the right side. I scaled the cursor to `[0.02, 0.02, 0.02]` (therefore 2cm diameter) and changed its position to `[0, 1.02, 0]` (102cm above the floor). For the tabletop, I changed its scale to `[1, 0.01, 1]` (2cm height since a cylinder by default has 2m height), and a position 1m above the floor (`[0, 1, 0]`). Move the plane to the origin `[0, 0, 0]` if it is not already, and leave its default scale which is a size of 10m x 10m.
+Lets move and scale these objects appropriate for our task. We can think of Unity's units as being in *meters* for simplicity. To do this, click an object in the hierarchy and modify the transform component that appears in the inspector on the right side. I scaled the cursor to `[0.02, 0.02, 0.02]` (therefore 2cm diameter) and changed its position to `[0, 1.02, 0]` (102cm above the floor). For the tabletop, I changed its scale to `[1, 0.01, 1]` (2cm height since a cylinder by default has 2m height), and a position 1m above the floor (`[0, 1, 0]`). Move the plane to the origin `[0, 0, 0]` if it is not already, and leave its default scale `[1, 1, 1]` which is a size of 10m x 10m.
 
 ![move-scale-gameobjects](/uxf-tutorial/images/move-scale-gameobjects.png)
 

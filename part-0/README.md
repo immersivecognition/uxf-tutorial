@@ -12,7 +12,7 @@ Unity is relatively easy to use compared to other options, but may not be intuit
 
 ## Required reading
 
-Before completing this tutorial you should have a good understanding of Unity. First work through the [Unity roll-a-ball tutorial](https://learn.unity.com/project/roll-a-ball-tutorial). For more experience, try to recreate a classic game like Pong, Pac-man, Minesweeper, Tetris etc using Unity.
+Before completing this tutorial you should have some basic experience with Unity. First work through the [Unity roll-a-ball tutorial](https://learn.unity.com/project/roll-a-ball-tutorial). For more experience, try to recreate a classic game like Pong, Pac-man, Minesweeper, Tetris, Flappy Bird, etc using Unity.
 
 Then, you should read the open access [UXF Paper](https://github.com/immersivecognition/unity-experiment-framework) and the [UXF GitHub Page](https://github.com/immersivecognition/unity-experiment-framework).
 
