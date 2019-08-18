@@ -20,4 +20,6 @@ Also be aware of the [UXF Wiki](https://github.com/immersivecognition/unity-expe
 
 Most importantly, make sure you are always referencing the [Unity Documentation](https://docs.unity3d.com/Manual/index.html)!
 
+---
+
 * [*Go to Part 1*](/uxf-tutorial/part-1)

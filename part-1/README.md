@@ -81,4 +81,6 @@ To fix the scale and the "blurriness", click on the model in our Project viewer 
 
 ![fix-model-import](/uxf-tutorial/images/fix-model-import.png)
 
+---
+
 * [*Go to Part 2*](/uxf-tutorial/part-2)
