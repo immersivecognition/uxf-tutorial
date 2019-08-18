@@ -37,4 +37,5 @@ If you want you can download the final project at `insert link here` and use [gi
 * [Part X - Building to an .exe]
 * [Part X - Uploading your project to github]
 
-* [Appendix 1 - Using git to download the project files for this tutorial]
+* [Appendix 1 - Using git to download the project files for this tutorial](http://immersivecognition.github.io/uxf-tutorial/appendix-1)
+* [Appendix 2 - Links to resources for your projects (Models/Sounds/Textures etc)](http://immersivecognition.github.io/uxf-tutorial/appendix-2)
