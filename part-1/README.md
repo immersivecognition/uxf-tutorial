@@ -69,8 +69,16 @@ Now make two more for the cursor and tabletop and drag those on the correspondin
 * **Material**: An *instance* of a shader with a particular set of parameters such as the colour, smoothness, etc. A mesh renderer component attached to a GameObject requires a reference to a material so it known how it should be displayed.
 * **Texture**: An image used within a material usually used to make an object look better than just a solid colour. 
 
+You can read Unity's explanation [here](https://docs.unity3d.com/Manual/Shaders.html).
+
 ## Adding a 3D model
 
-TODO
+Finally, we will add one more object which will represent the Target. For this I will import a 3D model of a icosahedron. I found 3D model [here](https://people.sc.fsu.edu/~jburkardt/data/obj/) - download and save to your `Assets/3D Models` folder (make sure it saves with `.obj` extension). When we drag it into out scene, we will find it is probably the wrong scale and looks blurry, but we can fix that.
 
-I found the dodecahedron 3D model [here](https://people.sc.fsu.edu/~jburkardt/data/obj/) - download and save to your Assets folder.
+![model-import](/uxf-tutorial/images/model-import.png)
+
+To fix the scale and the "blurriness", click on the model in our Project viewer (**not** in the hierarchy) to modify the import settings in the inspector. It looks like it was made with a 1m radius (comparing the size to our tabletop) so we set the scale factor to 0.5 to make it have a 1m diameter (consistent with the Unity sphere used for our cursor). In this case I want the target to look geometric rather than smooth, so I changed the Normals to calculate and the Smoothing angle to 0. You can read more about meshes [here](https://docs.unity3d.com/ScriptReference/Mesh.html). After clicking Apply, it looks much better. I then moved and scaled the icosahedron GameObject in our scene to position `[0, 1.02, 0.2]` and scale `[0.02, 0.02, 0.02]`. Last of all, rename it to Target, and create and add a material to it as we did above.
+
+![fix-model-import](/uxf-tutorial/images/fix-model-import.png)
+
+* [*Go to Part 2*](/uxf-tutorial/part-2)
