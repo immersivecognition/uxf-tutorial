@@ -4,7 +4,7 @@
 
 First we will create a project with the 3D template. You can do this through Unity Hub (a launcher which manages projects across different versions of Unity). A Unity project consists of a folder with many other folders inside.
 
-![create-project](/uxf-tutorial/images/create-project.png)
+[![create-project](/uxf-tutorial/images/create-project.png)](/uxf-tutorial/images/create-project.png)
 
 
 ## The Unity Editor
@@ -35,7 +35,7 @@ The Scene view (central panel) allows us to move around our scene and position o
 
 It's good practise to manage your `Assets` folder in sub-directories. First we will create the 3D Models, Materials, and Scripts folders just by right clicking in the Assets window (Create -> Folder). The Scenes folder should be already there on recent versions of Unity.
 
-![project-subdirectories](/uxf-tutorial/images/project-subdirectories.png)
+[![project-subdirectories](/uxf-tutorial/images/project-subdirectories.png)](/uxf-tutorial/images/project-subdirectories.png)
 
 Let's also rename our scene inside the Scenes folder from "SampleScene" to "Main".
 
@@ -45,11 +45,11 @@ We want to create a simple scene for our task to take place in. It will consist 
 
 Right click in the Hierarchy go to 3D Objects and create a Sphere (for our cursor), a cylinder (for our tabletop), and a plane (for the floor). They will appear in the centre of wherever our Scene view is looking.
 
-![primitives](/uxf-tutorial/images/primitives.png)
+[![primitives](/uxf-tutorial/images/primitives.png)](/uxf-tutorial/images/primitives.png)
 
 Lets move and scale these objects appropriate for our task. We can think of Unity's units as being in *meters* for simplicity. To do this, click an object in the hierarchy and modify the transform component that appears in the inspector on the right side. I scaled the cursor to `[0.02, 0.02, 0.02]` (therefore 2cm diameter) and changed its position to `[0, 1.02, 0]` (102cm above the floor). For the tabletop, I changed its scale to `[1, 0.01, 1]` (2cm height since a cylinder by default has 2m height), and a position 1m above the floor (`[0, 1, 0]`). Move the plane to the origin `[0, 0, 0]` if it is not already, and leave its default scale `[1, 1, 1]` which is a size of 10m x 10m.
 
-![move-scale-gameobjects](/uxf-tutorial/images/move-scale-gameobjects.png)
+[![move-scale-gameobjects](/uxf-tutorial/images/move-scale-gameobjects.png)](/uxf-tutorial/images/move-scale-gameobjects.png)
 
 Notice I also renamed the GameObjects with more appropriate names.
 
@@ -57,11 +57,11 @@ Notice I also renamed the GameObjects with more appropriate names.
 
 To make our objects have colour or textures, we will assign a material to each of them. Materials can be created and stored as assets, so they can be re-used across multiple objects if needed. We will create 3 materials with the standard shader, and configure them with appropriate colours for our task. In our Project panel at the bottom, navigate to your `Assets/Materials` folder, right click Create -> Material. Here's an example for the floor (I made a green, non smooth material and called it `Grass`). Then just drag and drop the material file onto the object within the Scene view or Hierarchy.
 
-![grass-material](/uxf-tutorial/images/grass-material.png)
+[![grass-material](/uxf-tutorial/images/grass-material.png)](/uxf-tutorial/images/grass-material.png)
 
 Now make two more for the cursor and tabletop and drag those on the corresponding objects too.
 
-![all-materials](/uxf-tutorial/images/all-materials.png)
+[![all-materials](/uxf-tutorial/images/all-materials.png)](/uxf-tutorial/images/all-materials.png)
 
 ### Shader vs Material vs Texture
 
@@ -75,11 +75,11 @@ You can read Unity's explanation [here](https://docs.unity3d.com/Manual/Shaders.
 
 Finally, we will add one more object which will represent the Target. For this I will import a 3D model of a icosahedron. I found 3D model [here](https://people.sc.fsu.edu/~jburkardt/data/obj/) - download and save to your `Assets/3D Models` folder (make sure it saves with `.obj` extension). When we drag it into out scene, we will find it is probably the wrong scale and looks blurry, but we can fix that.
 
-![model-import](/uxf-tutorial/images/model-import.png)
+[![model-import](/uxf-tutorial/images/model-import.png)](/uxf-tutorial/images/model-import.png)
 
 To fix the scale and the "blurriness", click on the model in our Project viewer (**not** in the hierarchy) to modify the import settings in the inspector. It looks like it was made with a 1m radius (comparing the size to our tabletop) so we set the scale factor to 0.5 to make it have a 1m diameter (consistent with the Unity sphere used for our cursor). In this case I want the target to look geometric rather than smooth, so I changed the Normals to calculate and the Smoothing angle to 0. You can read more about meshes [here](https://docs.unity3d.com/ScriptReference/Mesh.html). After clicking Apply, it looks much better. I then moved and scaled the icosahedron GameObject in our scene to position `[0, 1.02, 0.2]` and scale `[0.02, 0.02, 0.02]`. Last of all, rename it to Target, and create and add a material to it as we did above.
 
-![fix-model-import](/uxf-tutorial/images/fix-model-import.png)
+[![fix-model-import](/uxf-tutorial/images/fix-model-import.png)](/uxf-tutorial/images/fix-model-import.png)
 
 ---
 
