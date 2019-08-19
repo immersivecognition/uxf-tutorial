@@ -87,7 +87,7 @@ public class MouseController : MonoBehaviour
         worldPos.y = transform.position.y;
 
         // update position of cursor to our newly calculated position
-		transform.position = worldPos;
+        transform.position = worldPos;
     }
 }
 ```
