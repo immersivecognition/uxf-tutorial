@@ -8,9 +8,9 @@ If you want you can download the final project at `insert link here` and use [gi
 
 * [Part 0 - Introduction to Unity & UXF](http://immersivecognition.github.io/uxf-tutorial/part-0)
 * [Part 1 - Setting up the scene](http://immersivecognition.github.io/uxf-tutorial/part-1)
+* [Part 2 - Mouse control](http://immersivecognition.github.io/uxf-tutorial/part-2)
+* [Part 3 - Creating a start point](http://immersivecognition.github.io/uxf-tutorial/part-3)
 
-* [Part X - Mouse control]
-* [Part X - Creating a start point]
 * [Part X - Reaching for a target]
 * [Part X - Implementing UXF]
 
@@ -35,7 +35,7 @@ If you want you can download the final project at `insert link here` and use [gi
 * [Part X - Improving the graphics]
 * [Part X - Adding VR Demo Pack]
 * [Part X - Building to an .exe]
-* [Part X - Uploading your project to github]
+* [Part X - Uploading your project to GitHub]
 
 * [Appendix 1 - Using git to download the project files for this tutorial](http://immersivecognition.github.io/uxf-tutorial/appendix-1)
 * [Appendix 2 - Links to resources for your projects (Models/Sounds/Textures etc)](http://immersivecognition.github.io/uxf-tutorial/appendix-2)
