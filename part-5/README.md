@@ -236,3 +236,11 @@ Then assign this reference to the Tracked Objects list so UXF knows about it. If
 ## Final result
 
 [![uxf-task](/uxf-tutorial/images/uxf-task.gif)](/uxf-tutorial/images/uxf-task.gif)
+
+You should also notice UXF is now creating files in the output directory.
+
+[![reaching-output-files](/uxf-tutorial/images/reaching-output-files.png)](/uxf-tutorial/images/reaching-output-files.png)
+
+---
+
+* [*Go to Part 6*](/uxf-tutorial/part-6)
