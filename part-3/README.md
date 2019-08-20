@@ -12,7 +12,7 @@ To give an object behaviour when we touch it, we can use a collider. A collider 
 
 [![collider-scale](/uxf-tutorial/images/collider-scale.png)](/uxf-tutorial/images/collider-scale.png)
 
-To make the start point recognise when we enter it, lets change the collider to act as a trigger. This means Unity will not treat it as a physical object that we can roll around and we can bump into, but instead just trigger some behaviour when an object touches it. Additionally, we need to add a Rigidbody component to our start block before any interactions are registered. Unity only cares about physics interactions between objects where at least one of them has a Rigidbody attached. You can read more about how the Unity physics engine works [here](https://docs.unity3d.com/Manual/CollidersOverview.html).
+To make the start point recognise when we enter it, let's change the collider to act as a trigger. This means Unity will not treat it as a physical object that we can roll around and we can bump into, but instead just trigger some behaviour when an object touches it. Additionally, we need to add a Rigidbody component to our start block before any interactions are registered. Unity only cares about physics interactions between objects where at least one of them has a Rigidbody attached. You can read more about how the Unity physics engine works [here](https://docs.unity3d.com/Manual/CollidersOverview.html).
 
 Notice below I enabled all the constraints and disabled Use Gravity (we want this StartPoint to stay firmly in place!). 
 
@@ -45,7 +45,7 @@ public class StartPointController : MonoBehaviour
 }
 ```
 
-Attach StartPointController to our StartPoint and lets test it!
+Attach StartPointController to our StartPoint and let's test it!
 
 [![trigger-test](/uxf-tutorial/images/trigger-test.gif)](/uxf-tutorial/images/trigger-test.gif)
 
