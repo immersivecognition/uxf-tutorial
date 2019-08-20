@@ -209,6 +209,8 @@ The final thing to add is to make the Target re-appear on trial begin. We can ea
 
 [![trial-begin](/uxf-tutorial/images/trial-begin.gif)](/uxf-tutorial/images/trial-begin.gif)
 
+Remember you can do anything you want on trial begin - it could be making something appear, playing a sound, or anything your experiment needs. Just assign method to the event and have UXF do the work for you.
+
 Testing it out now should mean everything works - you can see in the UXF Info Bar at the bottom the trial number increasing as we touch the Target over and over again. However, we will get a `NoSuchTrialException` after 10 trials. That's because our StartPoint is trying to begin the next trial, but one doesn't exist! 
 
 ## Ending on last trial
@@ -217,7 +219,7 @@ When we have completed out 10 trials, we want the session to end. Ending the ses
 
 [![end-session](/uxf-tutorial/images/end-session.png)](/uxf-tutorial/images/end-session.png)
 
-That will only end the UXF Session - it wont end the task. We might want to show a thankyou message or do something else after the session has completed, but for now we will just end the task. UXF has a script that can do this - add the ApplicationHander component to your Experiment GameObject. Then assign it's `Quit()` method in the On Session End event in the Session inspector.
+That will only end the UXF Session - it won't end the task. We might want to show a thank-you message or do something else after the session has completed, but for now we will just end the task. UXF has a script that can do this - add the ApplicationHander component to your Experiment GameObject. Then assign it's `Quit()` method in the On Session End event in the Session inspector.
 
 [![experiment-application-handler](/uxf-tutorial/images/experiment-application-handler.png)](/uxf-tutorial/images/experiment-application-handler.png)
 
