@@ -89,7 +89,7 @@ public class StartPointController : MonoBehaviour
 }
 ```
 
-Note: `Material` (uppercase `M`) refers to the type of the variable, and `material` is the name of the material (this could be anything). 
+Note: `Material` (uppercase `M`) refers to the type of the variable, and `material` is the name of the variable (this could be anything). 
 
 Those 3 colours we created don't yet have any value - we assign them by clicking the fields in the StartPointController inspector. (Don't forget to increase the opacity - the A component of the colour.) 
 
