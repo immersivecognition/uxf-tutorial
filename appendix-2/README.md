@@ -7,7 +7,7 @@ Useful free resources for your VR/Unity experiments. Feel free to add more and s
 - http://opengameart.org/
 
 ## 3D Models:
-- http://poly.google.com/
+- http://poly.google.com/blocks
 - http://www.blender-models.com/
 - A few useful shapes https://people.sc.fsu.edu/~jburkardt/data/obj/obj.html
 - Standard set https://link.springer.com/article/10.3758/s13428-017-0925-3
