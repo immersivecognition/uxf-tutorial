@@ -1,4 +1,4 @@
-# Asset 
+# Asset links
 
 Useful free resources for your VR/Unity experiments. Feel free to add more and submit as a Pull Request.
 
@@ -15,7 +15,7 @@ Useful free resources for your VR/Unity experiments. Feel free to add more and s
 ## 3D Modelling packages
 - Blender
 - Google Blocks
-- ProBuilder (built into unity editor)
+- ProBuilder (built into Unity editor)
 
 ## Skybox
 - https://wwwtyro.github.io/space-3d/
