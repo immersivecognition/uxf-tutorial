@@ -10,7 +10,7 @@ Now we can move the cursor around and have the start block acting how we want it
 
 ## Audio
 
-When we touch the Target, we will play a sound as positive feedback for the participant. The first step is to add an AudioSource component to the GameObject. We need an audio clip in our project- let's create a Sounds folder in our project and drag a sound in from a folder on our PC. I found and downloaded [this](https://opengameart.org/content/picked-coin-echo-2) 'ding' sound. 
+When we touch the Target, we will play a sound as positive feedback for the participant. We need an audio clip in our project - let's create a Sounds folder in our project and drag a sound in from a folder on our PC. I found and downloaded [this](https://opengameart.org/content/picked-coin-echo-2) 'ding!' sound. 
 
 [![audio-clip](/uxf-tutorial/images/audio-clip.png)](/uxf-tutorial/images/audio-clip.png)
 
