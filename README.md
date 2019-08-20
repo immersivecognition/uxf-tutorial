@@ -13,7 +13,6 @@ If you want you can download the final project at `insert link here` and use [gi
 
 * [Part X - Reaching for a target]
 * [Part X - Implementing UXF]
-
 * [Part X - Adding a fail condition]
 * [Part X - Visuomotor-rotation]
 * [Part X - Error clamp]

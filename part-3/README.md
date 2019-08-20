@@ -45,7 +45,7 @@ public class StartPointController : MonoBehaviour
 
 Attach StartPointController to our StartPoint and lets test it!
 
-[![trigger-test](/uxf-tutorial/images/trigger-test.png)](/uxf-tutorial/images/trigger-test.png)
+[![trigger-test](/uxf-tutorial/images/trigger-test.gif)](/uxf-tutorial/images/trigger-test.gif)
 
 Key point: We aren't detecting if the mouse moves into the start point - but the Cursor game object. That will mean we wont have to change any of this code when we begin to control the Cursor with our hand in VR instead.
 
