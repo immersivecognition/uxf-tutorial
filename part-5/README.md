@@ -243,6 +243,10 @@ You should also notice UXF is now creating files in the output directory.
 
 [![reaching-output-files](/uxf-tutorial/images/reaching-output-files.png)](/uxf-tutorial/images/reaching-output-files.png)
 
+## Play around...
+
+Because we have built our task to be modular, we can do things like duplicate the Target we have created, and we will now have a choice of two targets. No changes to the code are needed.
+
 ---
 
 * [*Go to Part 6*](/uxf-tutorial/part-6)

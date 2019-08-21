@@ -12,8 +12,9 @@ If you want you can download the final project at `insert link here` and use [gi
 * [Part 3 - Creating a start point](http://immersivecognition.github.io/uxf-tutorial/part-3)
 * [Part 4 - Reaching for a target](http://immersivecognition.github.io/uxf-tutorial/part-4)
 * [Part 5 - Implementing UXF](http://immersivecognition.github.io/uxf-tutorial/part-5)
+* [Part 6 - Adding a miss outcome](http://immersivecognition.github.io/uxf-tutorial/part-6)
+* [Part 7 - Adding a timeout outcome](http://immersivecognition.github.io/uxf-tutorial/part-7)
 
-* [Part X - Adding fail conditions]
 * [Part X - Visuomotor-rotation]
 * [Part X - Error clamp]
 * [Part X - Feedback types]
