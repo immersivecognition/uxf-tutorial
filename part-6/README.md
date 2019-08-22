@@ -255,3 +255,7 @@ Now add the component to the Experiment GameObject, assign the references in the
 It should look like this:
 
 [![trial-timings](/uxf-tutorial/images/trial-timings.gif)](/uxf-tutorial/images/trial-timings.gif)
+
+---
+
+* [*Go to Part 7*](/uxf-tutorial/part-7)
