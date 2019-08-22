@@ -202,3 +202,56 @@ Finally, this `Present()` method needs to be called On Trial End - so add it to 
 ## Test it
 
 [![cursor-copy](/uxf-tutorial/images/cursor-copy.gif)](/uxf-tutorial/images/cursor-copy.gif)
+
+## Hiding the Cursors at the right time
+
+In the experiment, we don't want view of our cursor during the trial, and we want the cursor copy (the feedback) to display only for a short time after the trial ends. For the former, we will simply disable the MeshRenderer component of our Cursor at the start of the trial by adding an event under On Trial Begin which turns `enabled` to false.
+
+[![disable-meshrenderer](/uxf-tutorial/images/disable-meshrenderer.png)](/uxf-tutorial/images/disable-meshrenderer.png)
+
+A short time (here 500ms) after the trial ends, we will re-enable the cursor and also hide the cursor copy - the script is a very simple launch of a coroutine. I called SetupNextTrial since it cleans up the feedback and sets things up for the next trial.
+
+We are also going to set the StartPoint GameObject to inactive at the end of a trial and re-enable it when the feedback has finished.
+
+```cs
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UXF;
+
+public class SetupNextTrial : MonoBehaviour
+{
+    public MeshRenderer cursorMR;
+    public GameObject cursorCopy;
+    public GameObject startPoint;
+
+    public void DelayedSetup()
+    {
+        StartCoroutine(SetupSequence());
+    }
+
+    IEnumerator SetupSequence()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        // note: .enabled is a property of *components*
+        //       .SetActive() is a method of GameObjects
+
+        cursorMR.enabled = true;
+        cursorCopy.SetActive(false);
+        startPoint.SetActive(true);
+    }
+}
+```
+
+Now add the component to the Experiment GameObject, assign the references in the inspector, and finally make sure DelayedSetup is called On Trial End in the `UXF_Rig` (along with SetActive(false) of the StartPoint).
+
+[![setup-next-trial](/uxf-tutorial/images/setup-next-trial.png)](/uxf-tutorial/images/setup-next-trial.png)
+
+[![on-trial-end-events](/uxf-tutorial/images/on-trial-end-events.png)](/uxf-tutorial/images/on-trial-end-events.png)
+
+## Test it.. again
+
+It should look like this:
+
+[![trial-timings](/uxf-tutorial/images/trial-timings.gif)](/uxf-tutorial/images/trial-timings.gif)
