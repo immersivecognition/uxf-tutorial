@@ -4,7 +4,7 @@ This tutorial will walk you through building a simple virtual reality experiment
 
 The tutorial will begin by creating a simple keyboard/mouse version of the experiment. Then we will introduce UXF and begin collecting data and manipulating the task. Finally, we will make a few changes to make the project compatible with VR headsets.
 
-If you want you can download the final project at `insert link here` and use [git](https://git-scm.com/) on your PC to restore the project files (`git checkout <commit-id>`) to state they were in at the end of any part. See Appendix 1 below.
+If you want you can download the final project at [https://github.com/immersivecognition/uxf-tutorial-project](https://github.com/immersivecognition/uxf-tutorial-project). See Appendix 1 below for downloading or viewing the files at each part of the tutorial.
 
 * [Part 0 - Introduction to Unity & UXF](http://immersivecognition.github.io/uxf-tutorial/part-0)
 * [Part 1 - Setting up the scene](http://immersivecognition.github.io/uxf-tutorial/part-1)
@@ -14,19 +14,11 @@ If you want you can download the final project at `insert link here` and use [gi
 * [Part 5 - Implementing UXF](http://immersivecognition.github.io/uxf-tutorial/part-5)
 * [Part 6 - Adding a miss outcome](http://immersivecognition.github.io/uxf-tutorial/part-6)
 * [Part 7 - Adding a timeout outcome](http://immersivecognition.github.io/uxf-tutorial/part-7)
+* [Part 8 - Visuomotor-rotation](http://immersivecognition.github.io/uxf-tutorial/part-8)
+* [Part 9 - Error clamp](http://immersivecognition.github.io/uxf-tutorial/part-9)
+* [Part X - More settings](http://immersivecognition.github.io/uxf-tutorial/part-10)
 
-* [Part X - Visuomotor-rotation]
-* [Part X - Error clamp]
-* [Part X - Feedback types]
-* [Part X - Experiment manipulations]
-    * Target size
-    * Timings
-    * Block/trial numbers
-    * Feedback (online, endpoint)
-    * Rotation
-    * Error (veridical/clamp)
-* [Part X - Instructions/Score]
-
+* [Part X - Instructions]
 * [Part X - Adding a VR SDK]
     * Pros/cons - Future OpenXR implementation in Unity
     * Units
@@ -37,7 +29,7 @@ If you want you can download the final project at `insert link here` and use [gi
 * [Part X - Building to an .exe]
 * [Part X - Uploading your project to GitHub]
 
-* [Appendix 1 - Using git to download the project files for this tutorial](http://immersivecognition.github.io/uxf-tutorial/appendix-1)
+* [Appendix 1 - Using GitHub to download the project files for this tutorial](http://immersivecognition.github.io/uxf-tutorial/appendix-1)
 * [Appendix 2 - Links to resources for your projects (Models/Sounds/Textures etc)](http://immersivecognition.github.io/uxf-tutorial/appendix-2)
 
 ---

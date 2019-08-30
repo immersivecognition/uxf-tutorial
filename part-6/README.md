@@ -205,7 +205,7 @@ Finally, this `Present()` method needs to be called On Trial End - so add it to 
 
 ## Hiding the Cursors at the right time
 
-In the experiment, we don't want view of our cursor during the trial, and we want the cursor copy (the feedback) to display only for a short time after the trial ends. For the former, we will simply disable the MeshRenderer component of our Cursor at the start of the trial by adding an event under On Trial Begin which turns `enabled` to false.
+In the experiment, we don't want view of our cursor during the trial, and we want the cursor copy (the feedback) to display only for a short time after the trial ends. For the former, we will simply disable the MeshRenderer component of our Cursor at the start of the trial by adding an event under On Trial Begin which turns `enabled` to false. (We will remove this later.)
 
 [![disable-meshrenderer](/uxf-tutorial/images/disable-meshrenderer.png)](/uxf-tutorial/images/disable-meshrenderer.png)
 

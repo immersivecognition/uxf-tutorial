@@ -1,4 +1,4 @@
-# Part 7
+# Part 7 - Adding a timeout outcome
 
 In this task, we want people to move quickly with ballistic movements. We will ensure this happens by adding a fail condition if the participant moves too slow (over 600ms). We can do this with a simple script that launches a coroutine and fails this trial if they move too slowly.
 
@@ -53,6 +53,8 @@ And we want to call our BeginCountdown on trial begin, and StopCountdown on tria
 
 [![too-slow-events](/uxf-tutorial/images/too-slow-events.png)](/uxf-tutorial/images/too-slow-events.png)
 
+Now, of course our trial will be marked as `tooslow` in our output.
+
 ## Fixing the feedback
 
 Right now the feedback (the Cursor Copy) is still going to try to display even if we move too slow. That is a problem because we don't have an "angle" measured. So lets add a condition where that doesn't happen in our FeedbackController script. I modified the first part of our Present() method that returns early if the outcome isn't a hit or miss:
@@ -68,7 +70,6 @@ Right now the feedback (the Cursor Copy) is still going to try to display even i
         float angle = (float) endedTrial.result["angle"];     
 ...
 ```
-
 Later we will add additional text feedback for the different outcomes. 
 
 
