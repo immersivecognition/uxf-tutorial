@@ -146,4 +146,4 @@ We can also duplicate this file to have multiple settings profiles. These are us
 
 ---
 
-* [*Go to Part 10*](/uxf-tutorial/part-11)
+* [*Go to Part 11*](/uxf-tutorial/part-11)
