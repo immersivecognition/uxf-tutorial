@@ -18,11 +18,9 @@ If you want you can download the final project at [https://github.com/immersivec
 * [Part 9 - Error clamp](http://immersivecognition.github.io/uxf-tutorial/part-9)
 * [Part 10 - More settings](http://immersivecognition.github.io/uxf-tutorial/part-10)
 * [Part 11 - Instructions](http://immersivecognition.github.io/uxf-tutorial/part-11)
+* [Part 12 - Adding a VR SDK](http://immersivecognition.github.io/uxf-tutorial/part-12)
+* [Part 13 - VR controls](http://immersivecognition.github.io/uxf-tutorial/part-13)
 
-* [Part X - Adding a VR SDK]
-    * Pros/cons - Future OpenXR implementation in Unity
-    * Units
-* [Part X - VR controls]
 * [Part X - Table height adjustment]
 * [Part X - Improving the graphics]
 * [Part X - Adding VR Demo Pack]
