@@ -26,3 +26,5 @@ Useful free resources for your VR/Unity experiments. Feel free to add more and s
 
 ## Particles
 - [https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-particle-pack-127325](https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-particle-pack-127325)
+
+*Feel free to submit your own by editing [this document](https://github.com/immersivecognition/uxf-tutorial/tree/master/appendix-2)*
