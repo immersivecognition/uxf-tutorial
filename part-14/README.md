@@ -56,7 +56,7 @@ The public KeyCode fields allow us to select the keys we wish to use for moving 
 
 [![position-adjuster](/uxf-tutorial/images/position-adjuster.png)](/uxf-tutorial/images/position-adjuster.png)
 
-We will a bonus feature which saves the height of the GameObject using Unity [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html) - so even when we close and re-open the task, we won't have to re-adjust the height. Don't get the Unity PlayerPrefs system confused with the UXF Settings system, even though the method names are similar.
+We will implement a bonus feature which saves the height of the GameObject using Unity [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html) - so even when we close and re-open the task, we won't have to re-adjust the height. Don't get the Unity PlayerPrefs system confused with the UXF Settings system, even though the method names are similar.
 
 To do this, we just load and apply the height on start, and update the PlayerPref each time we modify the height.
 
