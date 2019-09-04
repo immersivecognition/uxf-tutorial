@@ -16,7 +16,7 @@
 - ProBuilder (built into Unity editor)
 
 ## Skybox
-- [https://wwwtyro.github.io/space-3d/](https://wwwtyro.github.io/space-3d/)
+- [https://wwwtyro.github.io/space-3d/](https://wwwtyro.github.io/space-3d/) (Note see here to save: [https://github.com/wwwtyro/space-3d/issues/4](https://github.com/wwwtyro/space-3d/issues/4))
 
 ## Sound
 - [https://opengameart.org/content/512-sound-effects-8-bit-style](https://opengameart.org/content/512-sound-effects-8-bit-style)
