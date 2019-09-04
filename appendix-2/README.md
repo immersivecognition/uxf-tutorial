@@ -1,7 +1,5 @@
 # Asset links
 
-Useful free resources for your VR/Unity experiments. Feel free to add more and submit as a Pull Request.
-
 ## General
 - Asset store (built into Unity)
 - http://opengameart.org/
