@@ -15,6 +15,9 @@
 - Google Blocks
 - ProBuilder (built into Unity editor)
 
+## Icons
+- Free icons - also useful for some textures [https://flaticons.net/](https://flaticons.net/)
+
 ## Skybox
 - [https://wwwtyro.github.io/space-3d/](https://wwwtyro.github.io/space-3d/) (Note see here to save: [https://github.com/wwwtyro/space-3d/issues/4](https://github.com/wwwtyro/space-3d/issues/4))
 
