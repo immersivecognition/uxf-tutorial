@@ -21,11 +21,15 @@ If you want you can download the final project at [https://github.com/immersivec
 * [Part 12 - Adding a VR SDK](http://immersivecognition.github.io/uxf-tutorial/part-12)
 * [Part 13 - VR controls](http://immersivecognition.github.io/uxf-tutorial/part-13)
 * [Part 14 - Table height adjustment](http://immersivecognition.github.io/uxf-tutorial/part-14)
+* [Part 15 - Making it look pretty](http://immersivecognition.github.io/uxf-tutorial/part-15)
 
-* [Part X - Improving the graphics]
+---
+
 * [Part X - Adding VR Demo Pack]
 * [Part X - Building to an .exe]
 * [Part X - Uploading your project to GitHub]
+
+---
 
 * [Appendix 1 - Using GitHub to download the project files for this tutorial](http://immersivecognition.github.io/uxf-tutorial/appendix-1)
 * [Appendix 2 - Links to resources for your projects (Models/Sounds/Textures etc)](http://immersivecognition.github.io/uxf-tutorial/appendix-2)

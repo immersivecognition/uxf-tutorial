@@ -107,6 +107,9 @@ With this the experimenter can manually adjust the height when setting up the ex
 
 ## Test it
 
+Here I show the scene as well as first person view.
+
+[![Video of change-table-height](/uxf-tutorial/videos/change-table-height.png)](/uxf-tutorial/videos/change-table-height.mp4)
 
 ## Extensions
 
