@@ -1,7 +1,5 @@
 # Asset links
 
-Useful free resources for your VR/Unity experiments. Feel free to add more and submit as a Pull Request.
-
 ## General
 - Asset store (built into Unity)
 - http://opengameart.org/
@@ -17,8 +15,11 @@ Useful free resources for your VR/Unity experiments. Feel free to add more and s
 - Google Blocks
 - ProBuilder (built into Unity editor)
 
+## Icons
+- Free icons - also useful for some textures [https://flaticons.net/](https://flaticons.net/)
+
 ## Skybox
-- [https://wwwtyro.github.io/space-3d/](https://wwwtyro.github.io/space-3d/)
+- [https://wwwtyro.github.io/space-3d/](https://wwwtyro.github.io/space-3d/) (Note see here to save: [https://github.com/wwwtyro/space-3d/issues/4](https://github.com/wwwtyro/space-3d/issues/4))
 
 ## Sound
 - [https://opengameart.org/content/512-sound-effects-8-bit-style](https://opengameart.org/content/512-sound-effects-8-bit-style)
