@@ -9,7 +9,7 @@ The tutorial will begin by creating a simple keyboard/mouse version of the exper
         <img src="http://immersivecognition.github.io/uxf-tutorial/videos/pretty.png" width="300"/>]
     </a>
 </p>
-If you want you can download the final project at [immersivecognition/uxf-tutorial-project](https://github.com/immersivecognition/uxf-tutorial-project). See Appendix 1 below for downloading or viewing the files at each part of the tutorial.
+If you want you can download the final project [here](http://github.com/immersivecognition/uxf-tutorial-project). See Appendix 1 below for downloading or viewing the files at each part of the tutorial.
 
 * [Part 0 - Introduction to Unity & UXF](http://immersivecognition.github.io/uxf-tutorial/part-0)
 * [Part 1 - Setting up the scene](http://immersivecognition.github.io/uxf-tutorial/part-1)
