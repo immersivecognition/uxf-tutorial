@@ -27,6 +27,8 @@ If you want you can download the final project at [https://github.com/immersivec
 
 ---
 
+TODO
+
 * [Part X - Adding VR Demo Pack]
 * [Part X - Building to an .exe]
 * [Part X - Uploading your project to GitHub]
