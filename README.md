@@ -4,8 +4,9 @@ This tutorial will walk you through building a simple virtual reality experiment
 
 The tutorial will begin by creating a simple keyboard/mouse version of the experiment. Then we will introduce UXF and begin collecting data and manipulating the task. Finally, we will make a few changes to make the project compatible with VR headsets. Here's the final result:
 
-[![Video of pretty](/uxf-tutorial/videos/pretty.png)](/uxf-tutorial/videos/pretty.mp4)
-
+<p align="center">
+    [<img src="/uxf-tutorial/videos/pretty.png" width="200"/>](/uxf-tutorial/videos/pretty.mp4)
+</p>
 If you want you can download the final project at [https://github.com/immersivecognition/uxf-tutorial-project](https://github.com/immersivecognition/uxf-tutorial-project). See Appendix 1 below for downloading or viewing the files at each part of the tutorial.
 
 * [Part 0 - Introduction to Unity & UXF](http://immersivecognition.github.io/uxf-tutorial/part-0)
