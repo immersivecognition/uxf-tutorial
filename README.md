@@ -43,6 +43,7 @@ TODO
 * [Appendix 1 - Using GitHub to download the project files for this tutorial](http://immersivecognition.github.io/uxf-tutorial/appendix-1)
 * [Appendix 2 - Links to resources for your projects (Models/Sounds/Textures etc)](http://immersivecognition.github.io/uxf-tutorial/appendix-2)
 * [Appendix 3 - Links to useful Unity tutorials](http://immersivecognition.github.io/uxf-tutorial/appendix-3)
+* [Appendix 4 - Useful scripts/snippets for your projects](http://immersivecognition.github.io/uxf-tutorial/appendix-4)
 
 ---
 
