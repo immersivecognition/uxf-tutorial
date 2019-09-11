@@ -6,7 +6,7 @@ The tutorial will begin by creating a simple keyboard/mouse version of the exper
 
 <p align="center">
     <a href="http://immersivecognition.github.io/uxf-tutorial/videos/pretty.mp4">
-        <img src="http://immersivecognition.github.io/uxf-tutorial/videos/pretty.png" width="300"/>]
+        <img src="http://immersivecognition.github.io/uxf-tutorial/videos/pretty.png" width="300"/>
     </a>
 </p>
 
