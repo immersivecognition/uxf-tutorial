@@ -37,7 +37,6 @@ TODO
 * [Part X - Adding VR Demo Pack]
 * [Part X - Building to an .exe]
 * [Part X - Uploading your project to GitHub]
-* [Part X - An example `R` script to analyse data collected using UXF]
 
 ---
 
@@ -45,6 +44,7 @@ TODO
 * [Appendix 2 - Links to resources for your projects (Models/Sounds/Textures etc)](http://immersivecognition.github.io/uxf-tutorial/appendix-2)
 * [Appendix 3 - Links to useful Unity tutorials](http://immersivecognition.github.io/uxf-tutorial/appendix-3)
 * [Appendix 4 - Useful scripts/snippets for your projects](http://immersivecognition.github.io/uxf-tutorial/appendix-4)
+* [Appendix 5 - Example R script for processing UXF data](http://immersivecognition.github.io/uxf-tutorial/appendix-5)
 
 ---
 
