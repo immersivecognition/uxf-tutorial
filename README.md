@@ -28,6 +28,7 @@ If you want you can download the final project at [github.com/immersivecognition
 * [Part 13 - VR controls](http://immersivecognition.github.io/uxf-tutorial/part-13)
 * [Part 14 - Table height adjustment](http://immersivecognition.github.io/uxf-tutorial/part-14)
 * [Part 15 - Making it look pretty](http://immersivecognition.github.io/uxf-tutorial/part-15)
+* [Part 16 - Minor experiment additions](http://immersivecognition.github.io/uxf-tutorial/part-16)
 
 ---
 
