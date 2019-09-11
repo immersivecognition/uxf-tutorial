@@ -1,6 +1,6 @@
 # Unity Experiment Framework tutorial
 
-This tutorial will walk you through building a simple virtual reality experiment using UXF. Crucially, it will not be a general Unity tutorial (there are thousands already available!) but it will focus on how to make best use of UXF features. Here we will be creating a virtual reality visuomotor-rotation experiment. In these experiments, the user must reach towards an object under a rotated coordinate system until they adapt to the manipulation. Then, the visuomotor-rotation is removed, and the user must de-adapt to the manipulation.
+This tutorial will walk you through building a simple virtual reality experiment using [UXF](https://github.com/immersivecognition/unity-experiment-framework). UXF is a package for Unity that allows users to more easily develop human behaviour experiments. Crucially, it will not be a general Unity tutorial (there are thousands already available!) but it will focus on how to make best use of UXF features. Here we will be creating a virtual reality visuomotor-rotation experiment. In these experiments, the user must reach towards an object under a rotated coordinate system until they adapt to the manipulation. Then, the visuomotor-rotation is removed, and the user must de-adapt to the manipulation.
 
 The tutorial will begin by creating a simple keyboard/mouse version of the experiment. Then we will introduce UXF and begin collecting data and manipulating the task. Finally, we will make a few changes to make the project compatible with VR headsets. Here's a video of the final result:
 
@@ -37,12 +37,14 @@ TODO
 * [Part X - Adding VR Demo Pack]
 * [Part X - Building to an .exe]
 * [Part X - Uploading your project to GitHub]
+* [Part X - An example `R` script to analyse data collected using UXF]
 
 ---
 
 * [Appendix 1 - Using GitHub to download the project files for this tutorial](http://immersivecognition.github.io/uxf-tutorial/appendix-1)
 * [Appendix 2 - Links to resources for your projects (Models/Sounds/Textures etc)](http://immersivecognition.github.io/uxf-tutorial/appendix-2)
 * [Appendix 3 - Links to useful Unity tutorials](http://immersivecognition.github.io/uxf-tutorial/appendix-3)
+* [Appendix 4 - Useful scripts/snippets for your projects](http://immersivecognition.github.io/uxf-tutorial/appendix-4)
 
 ---
 
