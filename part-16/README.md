@@ -12,9 +12,4 @@ At this stage I wanted to add a few features that I forgot about earlier. These 
 * Remove the "jerk" experienced at the initial part of the reach. This is because the VMR is turned on instantaneously. We will try to fix this by hiding the cursor when the trial begins up until we leave the start point.
 * Other minor tweaks.
 
-(See the Git commit changelog for the full code change details.)
-
-
----
-
-* [*Go to Part 17*](/uxf-tutorial/part-17)
+[(See the Git commit changelog for the full code change details.)](https://github.com/immersivecognition/uxf-tutorial-project/commit/7bc8eff0deb6925a7f1f16845e74c532e9c526a4)
