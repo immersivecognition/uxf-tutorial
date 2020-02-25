@@ -209,6 +209,8 @@ The final thing to add is to make the Target re-appear on trial begin. We can ea
 
 [![trial-begin](/uxf-tutorial/images/trial-begin.gif)](/uxf-tutorial/images/trial-begin.gif)
 
+Note: As of a UXF update in 2020, the events here have a reorderable feature.
+
 Remember you can do anything you want on trial begin - it could be making something appear, playing a sound, or anything your experiment needs. Just assign method to the event and have UXF do the work for you.
 
 Testing it out now should mean everything works - you can see in the UXF Info Bar at the bottom the trial number increasing as we touch the Target over and over again. However, we will get a `NoSuchTrialException` after 10 trials. That's because our StartPoint is trying to begin the next trial, but one doesn't exist! 
@@ -234,6 +236,8 @@ We also want a log of the cursor's position within each trial, for extra movemen
 Then assign this reference to the Tracked Objects list so UXF knows about it. If you aren't familiar with the Unity inspector you must change the list size then assign the empty field to our Cursor.
 
 [![tracked-object-assign](/uxf-tutorial/images/tracked-object-assign.gif)](/uxf-tutorial/images/tracked-object-assign.gif)
+
+Note: As of a UXF update in 2020, the lists here have a reorderable feature.
 
 ## Final result
 
