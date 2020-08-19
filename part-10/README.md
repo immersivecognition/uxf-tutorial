@@ -46,6 +46,10 @@ public class TooSlowCheck : MonoBehaviour
 }
 ```
 
+<div style="border:1px solid #ff9a00;background-color:rgba(255, 154, 0, 0.3);padding:2em;">
+NOTE: As of an update to UXF, you no longer need create a reference to the UXF session. You can simple write `Session.instance` to access the current session instance (e.g. `Session.instance.CurrentTrial.End()`. The old way still works too.
+</div>
+
 I also did the same with the StartPoint time period - the process is exactly the same as the above. I added a setting called `startpoint_period`. Here are the changes to the Countdown method in StartPointController.
 
 ```cs
