@@ -32,6 +32,10 @@ Then, we want a function which will run at the start of each trial to update our
 
 Try to write yourself before looking below.
 
+<div style="border:1px solid #ff9a00;background-color:rgba(255, 154, 0, 0.3);padding:2em;">
+NOTE: As of an update to UXF, you no longer need create a reference to the UXF session. You can simple write `Session.instance` to access the current session instance (e.g. `Session.instance.CurrentTrial.End()`. The old way still works too.
+</div>
+
 ```cs
 using System.Collections;
 using System.Collections.Generic;
