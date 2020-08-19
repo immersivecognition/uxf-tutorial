@@ -150,6 +150,10 @@ Don't forget to assign the session reference in the inspector!
 
 [![session-reference](/uxf-tutorial/images/session-reference.gif)](/uxf-tutorial/images/session-reference.gif)
 
+<blockquote>
+NOTE: As of an update to UXF, you no longer need create a reference to the UXF session. You can simple write `Session.instance` to access the current session instance (e.g. `Session.instance.CurrentTrial.End()`.
+</blockquote>
+
 ### TargetController modifications
 
 Steps for this script
