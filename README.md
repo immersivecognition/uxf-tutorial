@@ -12,7 +12,7 @@ The tutorial will begin by creating a simple keyboard/mouse version of the exper
 
 If you want you can download the final project at [github.com/immersivecognition/uxf-tutorial-project](http://github.com/immersivecognition/uxf-tutorial-project). See Appendix 1 below for downloading or viewing the files at each part of the tutorial.
 
-Note: This tutorial was written in 2019 and UXF has recieved updates since then, so things may look a little different but almost everything should work the same.
+Note: This tutorial was written in 2019 and UXF has recieved updates since then, so things may look a little different but almost everything should work the same. If you encounter any problems [create an issue](https://github.com/immersivecognition/unity-experiment-framework/issues).
 
 * [Part 0 - Introduction to Unity & UXF](http://immersivecognition.github.io/uxf-tutorial/part-0)
 * [Part 1 - Setting up the scene](http://immersivecognition.github.io/uxf-tutorial/part-1)
