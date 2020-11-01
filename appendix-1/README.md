@@ -1,5 +1,7 @@
 # Using GitHub with this tutorial
 
+You can use GitHub to download the project files at different stages of the tutorial, as well as the finished project.
+
 1. Go here: [https://github.com/immersivecognition/uxf-tutorial-project/commits/master](https://github.com/immersivecognition/uxf-tutorial-project/commits/master) and find the part you wish to view.
 2. Press the `<>` icon to browse the code at this point.
 3. Search through the `Assets` folder to view the code at this point in time, or press `Clone or download` to pull the project files down to your PC.
