@@ -10,7 +10,7 @@ When importing, the UXF wizard should pop up to help get you started. (If not, a
 
 ## Testing it out
 
-Let's first open a UXF example scene to check everything is working. In your Project, open the UXF folder -> Examples -> Advanced -> AdvancedExample scene. We can press start and will be shown the UXF Startup UI. First, click Create Participant List and put it in a folder on your PC (I made a folder called `uxf_data` on my desktop). It will create a participant list there and all data will be stored next to this list. You can read more about the UXF UI [here](https://github.com/immersivecognition/unity-experiment-framework/wiki/Built-in-UI).
+Let's first open a UXF example scene to check everything is working. In your Project, open the UXF folder -> Examples -> 2_MoveToTarget -> MoveToTargetExample.unity scene. We can press start and will be shown the UXF Startup UI. First, click Create Participant List and put it in a folder on your PC (I made a folder called `uxf_data` on my desktop). It will create a participant list there and all data will be stored next to this list. You can read more about the UXF UI [here](https://github.com/immersivecognition/unity-experiment-framework/wiki/Built-in-UI).
 
 [![uxf-ui](/uxf-tutorial/images/uxf-ui.png)](/uxf-tutorial/images/uxf-ui.png)
 
