@@ -1,6 +1,6 @@
 # Part 3 - Creating a start point
 
-A very common aspect of many experiments involves the user moving their hand back to a starting position before the next trial begins. To make something like this in Unity, we will place an object in the centre of our workspace and give it the functionality it needs through a script. There is also an example of this built into the Advanced example supplied when you import UXF.
+A very common aspect of many experiments involves the user moving their hand back to a starting position before the next trial begins. To make something like this in Unity, we will place an object in the centre of our workspace and give it the functionality it needs through a script. There is also an example of this built into the 2_MoveToTarget example supplied when you import UXF.
 
 ## The start point GameObject
 
